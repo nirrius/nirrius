@@ -1,0 +1,125 @@
+json("theme.json")
+
+[data-component="pane"]
+  background white
+  border 3px solid gray-light
+  box-shadow rgba(0, 0, 0, 0.1) -5px 6px 0
+  flex-flow column
+  overflow auto
+  min-width 455px
+  width 35vw
+
+  position absolute
+  top 0
+  left 0
+
+  resize both
+  transform translate3d(0,0,0)
+  will-change top, left
+
+  &.react-draggable-dragging
+    box-shadow none
+
+  &:not([data-dismissable])
+    resize none
+
+  &[data-prominent]:not([data-maximized])
+    width 50%
+    height 80%
+
+  &[data-maximized]
+    transform none !important
+
+    left 0 !important
+    top 0 !important
+    width 100% !important
+
+    height calc(100% - 45px) !important // Consideration for taskbar
+
+    box-shadow none
+
+    border-width 1px
+
+    resize none
+
+  &[data-minimized]
+    display none
+
+  & > header
+    align-items center
+    flex-direction row
+    flex-shrink 1
+    justify-content space-between
+    padding 4px 5px
+    background-color lighten(teal-light, 50%)
+
+  &[data-focused] > header
+    background-color teal-light
+
+  &[data-focused] > header .primary-details .title
+    background-color teal-light
+
+  & > header .primary-details
+    background-image url("~images/dotted.png")
+    background-size 2px
+    background-repeat repeat
+
+    display inline-flex
+    flex-grow: 1
+    flex-direction row
+    height 100%
+    justify-content center
+    padding 0 60px
+
+    .title
+      background-color lighten(teal-light, 50%)
+
+      font-size text-smallest
+      line-height 1
+      padding 0 10px
+
+  & header > .actions
+    flex-direction row
+    font-family sans-serif
+    font-size 14px
+    line-height 1.45
+    margin-left 6px
+
+    .action + .action
+      margin-left 6px
+
+    .action
+      height 17px
+      width 17px
+
+      &:hover .container
+        stroke gray-base
+
+      &:hover .icon
+        fill black
+
+      &:active
+        transform: translateY(1px)
+
+      .container
+        stroke gray-light
+        fill blue-lightest
+        stroke-width 30
+
+      .icon
+        fill gray-dark
+
+  .body
+    background-color white
+    flex 1 1 auto
+    padding 10px
+
+  .body .actions
+    flex-flow row
+    align-items center
+    justify-content center
+
+  .connection-status
+    flex-shrink 0
+    padding-left 10px
+    margin-right 18px

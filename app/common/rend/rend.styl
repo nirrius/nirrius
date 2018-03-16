@@ -1,0 +1,24 @@
+[data-component="rend"]
+  display inline-block
+
+  &.torn
+    color transparent
+    background-color white
+
+  &.torn::before
+    text-shadow 0 0 0 alpha(black, 0.8), 0 -0.5em 0 alpha(black, 0.3), 0 -0.8em 0 alpha(black, 0.1)
+    background-color white
+
+  &::before
+    display block
+    content attr(data-possibility)
+
+    position absolute
+
+  &:hover.torn
+    color: black
+
+  &.torn:hover::before
+    background-color transparent
+    color transparent
+    text-shadow 0 -0.5em 0 alpha(black, 0.3), 0 -0.8em 0 alpha(black, 0.1)

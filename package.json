@@ -1,0 +1,58 @@
+{
+  "name": "NIRRIUS",
+  "version": "1.0.0",
+  "description": "NIRRI Universal System",
+  "scripts": {
+    "start": "node scripts/watch.js",
+    "build": "NODE_ENV=production webpack -p",
+    "deploy": "node ./scripts/deploy.js"
+  },
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nirrius/nirrius.git"
+  },
+  "author": "Teffen Ellis",
+  "license": "CC-BY-NC-SA-4.0",
+  "devDependencies": {
+    "autoprefixer-loader": "3.2.0",
+    "babel-cli": "6.6.0",
+    "babel-eslint": "5.0.0",
+    "babel-loader": "6.2.4",
+    "babel-plugin-react-transform": "2.0.0",
+    "babel-polyfill": "6.6.1",
+    "babel-preset-es2015": "6.6.0",
+    "babel-preset-react": "6.5.0",
+    "babel-preset-stage-0": "6.5.0",
+    "babel-runtime": "6.6.1",
+    "css-loader": "0.23.1",
+    "eslint": "2.2.0",
+    "eslint-loader": "1.3.0",
+    "eslint-plugin-react": "4.1.0",
+    "exports-loader": "0.6.3",
+    "file-loader": "0.8.5",
+    "gh-pages": "0.11.0",
+    "html-loader": "0.4.3",
+    "html-webpack-plugin": "2.9.0",
+    "json-loader": "0.5.4",
+    "remarkable-loader": "0.1.0",
+    "style-loader": "0.13.0",
+    "stylus": "0.54.5",
+    "stylus-loader": "2.4.0",
+    "url-loader": "0.5.7",
+    "webpack": "1.12.2",
+    "webpack-dev-server": "1.14.1"
+  },
+  "dependencies": {
+    "baobab": "2.3.3",
+    "baobab-react": "1.0.1",
+    "classnames": "2.2.3",
+    "local-preferences": "2.1.2",
+    "lodash": "4.6.0",
+    "moment": "2.11.2",
+    "normalize.css": "3.0.3",
+    "react": "0.14.7",
+    "react-dom": "0.14.7",
+    "react-draggable": "1.3.3"
+  }
+}

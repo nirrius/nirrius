@@ -1,0 +1,57 @@
+{
+  "text": {
+    "smallest": "20px",
+    "small": "24px",
+    "regular": "26px",
+    "large": "36px"
+  },
+
+  "font": {
+    "sans-serif": "\"Apple Kid\", sans-serif",
+    "serif": "\"Year is 199X\", serif"
+  },
+
+  "black": "#1d1d1d",
+  "offwhite": "#eee",
+  "dark-accent": "#004466",
+
+  "gray": {
+    "lightest": "#ccc",
+    "light": "#bdc8c8",
+    "base": "#777",
+    "dark": "#4c5d66"
+  },
+
+  "red": {
+    "lightest": "#FFF6F6",
+    "light": "#ffeaea",
+    "base": "#ffaaaa",
+    "dark": "#c36767"
+  },
+
+  "teal": {
+    "light": "#eaffff",
+    "base": "#9eeeee",
+    "dark": "#8888cc",
+    "darkest": "#55aaaa"
+  },
+
+  "yellow": {
+    "light": "#ffffea",
+    "base": "#eeee9e",
+    "dark": "#99994c"
+  },
+
+  "green": {
+    "light": "#eaffea",
+    "base": "#88cc88",
+    "dark": "#448844"
+  },
+
+  "blue": {
+    "lightest": "#F4FBFF",
+    "light": "#65b9e2",
+    "base": "#00aaff",
+    "dark": "#0088cc"
+  }
+}

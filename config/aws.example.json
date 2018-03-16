@@ -1,0 +1,8 @@
+{
+  "params": {
+    "Bucket": "",
+    "Region": "us-east-1"
+  },
+  "accessKeyId": "",
+  "secretAccessKey": ""
+}

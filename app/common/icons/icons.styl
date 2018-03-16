@@ -1,0 +1,36 @@
+json("theme.json")
+
+[data-component="icons"]
+  align-items flex-end
+  flex-direction column
+
+  margin 10px
+
+  .application
+    align-items center
+    display flex
+    flex-direction column
+
+    font-family font-serif
+
+    padding 4px
+
+    .icon
+      align-items center
+      justify-content center
+      display flex
+      font-size 66px
+      font-weight bold
+
+      background-color rgba(255, 255, 255, 0.1)
+      height 50px
+      width 50px
+
+    .icon + .title
+      margin-top 5px
+
+    .icon:hover
+      background-color rgba(255, 255, 255, 0.1)
+
+    .icon:active
+      background-color rgba(255, 255, 255, 0.2)
