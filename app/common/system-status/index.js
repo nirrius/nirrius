@@ -34,27 +34,31 @@ class SystemStatus extends React.Component {
 
   render() {
     return <section data-component="system-status">
+      <h1 className="slim-header">NIRRIUS</h1>
+      <span>Creative Studio</span>
       <h2>SYSTEM</h2>
       {this.renderSystemStatus()}
 
-      <h2>CRYOGENICS</h2>
+      <h2>USERS</h2>
       {this.renderCryogenicsStatus()}
     </section>
   }
 
   renderSystemStatus() {
+    const {status} = this.props.cryogenics
+
     return <ul>
       <li>Uptime: {this.getUptime()}</li>
+      <li>Status: {status}</li>
     </ul>
   }
 
   renderCryogenicsStatus() {
-    const {actual, capacity, status} = this.props.cryogenics
+    const {actual, capacity} = this.props.cryogenics
 
     return <ul>
-      <li>Status: {status}</li>
-      <li>Capacity: {capacity}</li>
       <li>Actual: {actual}</li>
+      <li>Capacity: {capacity}</li>
     </ul>
   }
 

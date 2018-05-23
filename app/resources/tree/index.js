@@ -35,14 +35,19 @@ const tree = new Baobab({
   panes: get("panes", defaultPanes),
   panesCreated: 0,
   system: {
-    bootTime: "2000-01-01T08:00:00.000Z",
+    bootTime: "2010-09-01T08:00:00.000Z",
     currentTime: Date.now()
   },
   cryogenics: {
-    actual: "???",
-    capacity: 100,
-    status: "DAMAGED"
+    actual: Math.floor(Math.random() * 100) + 1,
+    capacity: "???",
+    status: "ONLINE"
   },
+  // cryogenics: {
+  //   actual: "???",
+  //   capacity: 100,
+  //   status: "DAMAGED"
+  // },
   storyEnded,
   username
 }, {autoCommit: false})

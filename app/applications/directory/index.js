@@ -18,20 +18,18 @@ class Directory extends Component {
 
   render() {
     return <section data-component="applications/directory">
-      <h1>
-        Users
-      </h1>
+      <h1>Directory</h1>
 
       {this.renderEntries()}
     </section>
   }
 
   renderEntries() {
-    return this.props.entries.map((entry, i) =>
-      <div className="link entry" key={i} onClick={this.openUser.bind(this, entry)}>
+    return this.props.entries.map((entry, i) => {
+      return <div className="link entry" key={i} onClick={this.openUser.bind(this, entry)}>
         {entry.fullName}
       </div>
-    )
+    })
   }
 }
 

@@ -1,6 +1,8 @@
 import teffen from "./teffen"
+import nirrius from "./nirrius"
 
 export const recordsByUsername = {
+  nirrius,
   teffen
 }
 

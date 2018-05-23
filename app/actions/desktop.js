@@ -73,7 +73,9 @@ export function getPaneFromRoute(tree, username, entryID) {
   create({
     component: "Entries",
     applicationProps: {
-      contentTitle: `${user.fullName}'s Holographs`,
+      contentTitle: `${user.firstName}'s Holographs`,
+      header: user.fullName,
+      subHeader: user.description,
       entries: user.entries,
       username
     }

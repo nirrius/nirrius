@@ -1,13 +1,14 @@
 json("theme.json")
 
+@import "~mixins/media-query-variables"
+
 [data-component="pane"]
   background white
   border 3px solid gray-light
   box-shadow rgba(0, 0, 0, 0.1) -5px 6px 0
   flex-flow column
   overflow auto
-  min-width 455px
-  width 35vw
+  max-width 100vw
 
   position absolute
   top 0
@@ -16,6 +17,14 @@ json("theme.json")
   resize both
   transform translate3d(0,0,0)
   will-change top, left
+
+  @media desktopMinWidthQuery
+    min-width 455px
+    width 35vw
+
+  @media mobileMaxWidthQuery
+    width 320px
+    transform translate(0, 0)
 
   &.react-draggable-dragging
     box-shadow none
