@@ -3,7 +3,7 @@ export default {
   firstName: "Teffen",
   lastName: "Ellis",
   username: "teffen",
-  description: "Director of Product Engineering<",
+  description: "Director of Product Engineering",
   entries: [
     {
       id: "twitter",

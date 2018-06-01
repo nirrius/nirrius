@@ -1,7 +1,7 @@
 # Daemon, 2018
 
-<a class="hero-link with-image" href="https://photos-2.dropbox.com/t/2/AABvjqY4U_aIQWLYaGxdyvYFfIJ9bQhZZHH6AcVh4kpnwg/12/55553937/png/32x32/1/_/1/2/Daemon%20v3%20watermark.png/EIml8SoYgOEzIAcoBw/4UKH8Z2vFAqnM_IdVmt5LKpueq6w0RMUxIXVT8Ky4Og%2C8cB1-T-tdwzRpLhqIwo8Tnziui8cTD4MnZ2q3Nbt_c0%2CFXwdZIVk0hHL0rShcHRHwMDMZ0_dNegHGaTuwrBN__c%2C8KY7wzVUIF147ieXNRZpzSkaTyp7uq8ZVHnhbz3anQ4?preserve_transparency=1&size=1600x1200&size_mode=3" target="_blank">
-<img src="https://photos-2.dropbox.com/t/2/AABvjqY4U_aIQWLYaGxdyvYFfIJ9bQhZZHH6AcVh4kpnwg/12/55553937/png/32x32/1/_/1/2/Daemon%20v3%20watermark.png/EIml8SoYgOEzIAcoBw/4UKH8Z2vFAqnM_IdVmt5LKpueq6w0RMUxIXVT8Ky4Og%2C8cB1-T-tdwzRpLhqIwo8Tnziui8cTD4MnZ2q3Nbt_c0%2CFXwdZIVk0hHL0rShcHRHwMDMZ0_dNegHGaTuwrBN__c%2C8KY7wzVUIF147ieXNRZpzSkaTyp7uq8ZVHnhbz3anQ4?preserve_transparency=1&size=1600x1200&size_mode=3" />
+<a class="hero-link with-image" href="https://nirri.us/media/Daemon%20v3%20watermark.png" target="_blank">
+<img src="https://nirri.us/media/Daemon%20v3%20watermark.png" />
 </a>
 
 <h4>Humans At Cloudflare<br>Earth, 2009 — present</h4>

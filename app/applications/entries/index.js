@@ -26,7 +26,7 @@ class Entries extends Component {
     return <section data-component="applications/entries">
       <header>
         <h1 className="slim-header">{this.props.header}</h1>
-        {this.props.subHeader}
+        <p className="sub-header">{this.props.subHeader}</p>
       </header>
 
       {this.renderTable()}

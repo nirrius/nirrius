@@ -3,10 +3,14 @@
 
 "use strict"
 
-var ENVIRONMENT = process.env.NODE_ENV || "development"
-var resolve = require("path").resolve
-var metaAttributes = require("./app/resources/meta-attributes.json")
-var HtmlWebpackPlugin = require("html-webpack-plugin")
+const ENVIRONMENT = process.env.NODE_ENV || "development"
+const resolve = require("path").resolve
+const metaAttributes = require("./app/resources/meta-attributes.json")
+const HtmlWebpackPlugin = require("html-webpack-plugin")
+const CopyWebpackPlugin = require("copy-webpack-plugin")
+const path = require("path")
+
+const joinP = path.join.bind(null, __dirname)
 
 exports.devtool = "source-map"
 
@@ -20,17 +24,21 @@ exports.module = {
 }
 
 exports.output = {
-  filename: "[name].js",
+  filename: "[name]-[hash].js",
   path: resolve(__dirname, "dist"),
   publicPath: "/",
-  sourceMapFilename: "[name].map"
+  sourceMapFilename: "[name]-[hash].map"
 }
 
 exports.plugins = [
   new HtmlWebpackPlugin({
     meta: metaAttributes,
     template: "app/index.ejs"
-  })
+  }),
+  new CopyWebpackPlugin([{
+    from: joinP('./media'),
+    to: 'media'
+  }])
 ]
 
 exports.remarkable = {
