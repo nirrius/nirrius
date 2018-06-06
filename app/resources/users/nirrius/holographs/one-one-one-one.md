@@ -1,6 +1,6 @@
 # Cloudflare Apps
 
-A privacy-first, high performance global DNS. Our role was lead a team to design and coordinate guerilla marketing efforts.
+A privacy-first, high performance global DNS. Our role was lead a team to design and coordinate guerrilla marketing efforts.
 
 <a href="https://1.1.1.1/" target="_blank">1.1.1.1 ›</a>
 
