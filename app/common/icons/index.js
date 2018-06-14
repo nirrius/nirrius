@@ -30,7 +30,8 @@ class Icons extends Component {
 
   renderApplications() {
     return this.props.applications.map((application, i) => {
-      const title = this.getTitle(application)
+      const title = application.applicationTitle
+      const [firstChar, secondChar] = title.replace(/aeiou/g, '')
 
       return <div
         className="application"
@@ -39,7 +40,8 @@ class Icons extends Component {
         onClick={this.openApplication.bind(this, application)}>
         <div className="icon">
           <span className="icon-letter">
-            {title.substring(0, 1)}
+            <span className="primary">{firstChar}</span>
+            <span className="secondary">{secondChar}</span>
           </span>
         </div>
 

@@ -1,9 +1,12 @@
 {
-  "title": "NIRRIUS",
-  "description": "NIRRI Universal System",
-  "domain": "nirri.us",
+  "title": "Nirrius Creative Studio",
+  "description": "A collective of passionate humans that build great products and unforgettable experiences.",
+  "domain": "https://nirri.us",
   "keywords": [
-    "NIRRIUS",
-    "Teffen"
+    "nirrius",
+    "Teffen",
+    "TeffenEllis",
+    "sonata",
+    "cloudflare"
   ]
 }
