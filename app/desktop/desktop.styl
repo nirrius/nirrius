@@ -5,5 +5,18 @@
   right 0
   top 0
 
+  &:before
+    content ""
+    display block
+    bottom -200%
+    left -200%
+    position absolute
+    right -200%
+    top -200%
+    transform rotate(-45deg)
+    background-image url("~images/nirrius-repeat.svg")
+    pointer-events none
+    z-index -100
+
 [data-component="desktop"][data-chapter="goodbye"]
   background-image url("~images/the-end.svg")

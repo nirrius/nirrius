@@ -37,4 +37,4 @@ export default Object.assign(branch(Directory, {
   actions: {
     getPaneFromRoute: desktopActions.getPaneFromRoute
   }
-}), {applicationTitle: "Directory"})
+}), {applicationTitle: "Spectra"})

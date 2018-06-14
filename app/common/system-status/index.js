@@ -34,7 +34,7 @@ class SystemStatus extends React.Component {
 
   render() {
     return <section data-component="system-status">
-      <h1 className="slim-header">NIRRIUS</h1>
+      <h1 className="slim-header" style={{letterSpacing: "3.5px"}}>NIRRIUS</h1>
       <span>Creative Studio</span>
       <h2>SYSTEM</h2>
       {this.renderSystemStatus()}

@@ -30,24 +30,26 @@ class Icons extends Component {
 
   renderApplications() {
     return this.props.applications.map((application, i) => {
-      const title = application.applicationTitle
-      const [firstChar, secondChar] = title.replace(/aeiou/g, '')
+      const title = application.applicationProps.contentTitle
+      const [firstChar, secondChar] = title.replace(/aeiou/g, "")
 
       return <div
         className="application"
         data-application={title}
         key={i}
         onClick={this.openApplication.bind(this, application)}>
-        <div className="icon">
-          <span className="icon-letter">
-            <span className="primary">{firstChar}</span>
-            <span className="secondary">{secondChar}</span>
+        <div className="icon-wrapper">
+          <div className="icon">
+            <span className="icon-letter">
+              <span className="primary">{firstChar}</span>
+              <span className="secondary">{secondChar}</span>
+            </span>
+          </div>
+
+          <span className="title">
+            {title}
           </span>
         </div>
-
-        <span className="title">
-          {title}
-        </span>
       </div>
     })
   }

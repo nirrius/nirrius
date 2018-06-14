@@ -1,9 +1,16 @@
 json("theme.json")
 
 [data-component="icons"]
+  display flex
+  flex-flow column wrap-reverse
+  position absolute
+  right 0
+  bottom 0
+  top 0
+  left 0
   align-items flex-end
-  flex-direction column
-
+  max-height 68vh
+  align-content flex-start
   margin 10px
 
   .application
@@ -21,17 +28,26 @@ json("theme.json")
       display flex
       font-size 66px
       font-weight bold
+      border 3px dotted hsl(0, 0%, 92%)
 
-      background-color rgba(255, 255, 255, 0.4)
+      background-color hsla(0, 0%, 100%, 0.8)
       height 50px
       width 50px
 
-      &:hover
-        background-color rgba(255, 255, 255, 0.5)
+      &hove
+        background-color  hsla(0, 0%, 97%, 0.8)
 
-      &:active
-        background-color rgba(255, 255, 255, 0.55)
+      &activ
+        background-color  hsla(0, 0%, 96%, 0.8)
 
   .icon-letter
     .secondary
-      font-size .95em
+      font-size .75em
+      color teal-dark
+      margin-left 1.5px
+
+  .icon-wrapper
+    display flex
+    flex-flow column
+    align-items center
+    min-width 3.2em

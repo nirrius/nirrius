@@ -4,7 +4,7 @@ import * as desktopActions from "actions/desktop"
 import React from "react"
 import Pane from "common/pane"
 import Taskbar from "common/taskbar"
-import Icons from "common/Icons"
+import Icons from "common/icons"
 import SystemStatus from "common/system-status"
 import {branch} from "baobab-react/higher-order"
 

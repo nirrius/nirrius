@@ -69,7 +69,7 @@ exports.module.loaders.push(
   {test: /\.woff$/, loader: "url-loader?prefix=font/&limit=8182"},
   {test: /\.woff2$/, loader: "url-loader?prefix=font/&limit=8182"},
   {test: /\.md$/, loader: "html!remarkable"},
-  {test: /\.styl$/, loader: "style-loader?singleton!css-loader!autoprefixer!stylus-loader?paths=app/resources/"},
+  {test: /\.styl$/, loader: "style-loader?singleton!css-loader!stylus-loader?paths=app/resources/"},
   {test: /\.json$/, loader: "json-loader", exclude: /node_modules/},
   {test: /\.js$/, loader: "babel-loader", exclude: /node_modules/}
 )
