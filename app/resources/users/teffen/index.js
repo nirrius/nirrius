@@ -6,10 +6,10 @@ export default {
   description: "Director of Product Engineering",
   entries: [
     {
-      id: "twitter",
-      contentTitle: "@TeffenEllis",
-      description: "memes, anime, weeaboo stuff",
-      href: "https://twitter.com/teffenellis"
+      id: "linkedin",
+      contentTitle: "LinkedIn",
+      description: "LinkedIn",
+      href: "https://www.linkedin.com/in/teffen-ellis/"
     },
     {
       id: "github",
@@ -22,6 +22,12 @@ export default {
       contentTitle: "teffen@nirri.us",
       description: "Get in touch",
       href: "mailto:teffen@nirri.us?subject=Hello!"
+    },
+    {
+      id: "twitter",
+      contentTitle: "@TeffenEllis",
+      description: "memes, anime, weeaboo stuff",
+      href: "https://twitter.com/teffenellis"
     }
   ]
 }

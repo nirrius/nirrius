@@ -40,7 +40,7 @@ export default [
   {
     component: "Directory",
     applicationProps: {
-      contentTitle: "Directory",
+      contentTitle: "About Us",
       entries: recordsByList
     }
   }
