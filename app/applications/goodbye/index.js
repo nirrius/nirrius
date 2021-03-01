@@ -1,4 +1,4 @@
-import "./Goodbye.styl"
+import "./goodbye.styl"
 
 import * as sessionActions from "actions/session"
 import {capitalize} from "lodash"

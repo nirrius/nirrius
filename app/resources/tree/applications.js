@@ -1,47 +1,49 @@
-import cloudflareApps from "../users/nirrius/holographs/cloudflare-apps.md"
-import one4 from "../users/nirrius/holographs/one-one-one-one.md"
-// import ceregoJapan from "../users/nirrius/holographs/cerego-japan.md"
-import prelude from "../users/nirrius/holographs/prelude.md"
-// import daemon from "../users/nirrius/holographs/daemon.md"
-import embedBox from "../users/nirrius/holographs/embed-box.md"
-// import sonata from "../users/nirrius/holographs/sonata.md"
 
-import {recordsByList} from "resources/users"
+import {recordsByUsername} from "../users"
+import sonata from "../users/nirrius/holographs/sonata.md"
+import teffen from "../users/nirrius/holographs/teffen.md"
 
 export default [
   {
     component: "Spectra",
     applicationProps: {
-      contentTitle: "Prelude",
-      body: prelude
+      contentTitle: "About Me",
+      body: teffen
+    }
+  },
+  {
+    component: "Spectra",
+    href: "https://twitter.com/SleepySheikha",
+    applicationProps: {
+      contentTitle: "Twitter"
+    }
+  },
+  {
+    component: "Spectra",
+    href: "https://ko-fi.com/nirrius",
+    applicationProps: {
+      contentTitle: "Ko-fi"
+    }
+  },
+  {
+    component: "Entries",
+    applicationProps: {
+      contentTitle: "Writing",
+      ...recordsByUsername.writing
+    }
+  },
+  {
+    component: "Entries",
+    applicationProps: {
+      contentTitle: "Fiction",
+      ...recordsByUsername.fiction
     }
   },
   {
     component: "Spectra",
     applicationProps: {
-      contentTitle: "1.1.1.1",
-      body: one4
-    }
-  },
-  {
-    component: "Spectra",
-    applicationProps: {
-      contentTitle: "Embed Box",
-      body: embedBox
-    }
-  },
-  {
-    component: "Spectra",
-    applicationProps: {
-      contentTitle: "Cloudflare Apps",
-      body: cloudflareApps
-    }
-  },
-  {
-    component: "Directory",
-    applicationProps: {
-      contentTitle: "About Us",
-      entries: recordsByList
+      contentTitle: "Sonata",
+      body: sonata
     }
   }
 ]

@@ -1,33 +1,27 @@
 export default {
-  fullName: "Teffen Ellis",
-  firstName: "Teffen",
-  lastName: "Ellis",
+  fullName: "Teff",
+  firstName: "Teff",
+  lastName: "",
   username: "teffen",
-  description: "Director of Product Engineering",
+  description: "Fiction Writer",
   entries: [
     {
-      id: "linkedin",
-      contentTitle: "LinkedIn",
-      description: "LinkedIn",
-      href: "https://www.linkedin.com/in/teffen-ellis/"
-    },
-    {
-      id: "github",
-      contentTitle: "Github",
-      description: "Open source work",
-      href: "https://github.com/TeffenEllis"
-    },
-    {
-      id: "email",
-      contentTitle: "teffen@nirri.us",
-      description: "Get in touch",
-      href: "mailto:teffen@nirri.us?subject=Hello!"
-    },
-    {
       id: "twitter",
-      contentTitle: "@TeffenEllis",
+      contentTitle: "@SleepyShiekha",
       description: "memes, anime, weeaboo stuff",
-      href: "https://twitter.com/teffenellis"
+      href: "https://twitter.com/SleepyShiekha"
+    },
+    {
+      id: "sonata",
+      contentTitle: "Sonata",
+      description: "A mystery novel about leaving Portland, tender queer romance, and island adventure.",
+      href: ""
+    },
+    {
+      id: "ko-fi",
+      contentTitle: "Ko-fi",
+      description: "Support my writing, and put my cats through college",
+      href: "https://ko-fi.com/nirrius"
     }
   ]
 }

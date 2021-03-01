@@ -3,7 +3,6 @@ import one4 from "./holographs/one-one-one-one.md"
 import ceregoJapan from "./holographs/cerego-japan.md"
 import prelude from "./holographs/prelude.md"
 import daemon from "./holographs/daemon.md"
-import sonata from "./holographs/sonata.md"
 import brands from "./holographs/brands.md"
 
 export default {
@@ -36,12 +35,6 @@ export default {
       contentTitle: "Daemon",
       description: "Argo Tunnel visual",
       body: daemon
-    },
-    {
-      id: "sonata",
-      contentTitle: "Sonata",
-      description: "A VR game about sisters who dance with ghosts",
-      body: sonata
     },
     {
       id: "cerego-japan",

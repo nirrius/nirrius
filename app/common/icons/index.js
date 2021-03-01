@@ -19,6 +19,11 @@ class Icons extends Component {
   }
 
   openApplication(application) {
+    if (application.href) {
+      window.open(application.href, "_blank")
+      return
+    }
+    
     this.props.actions.createPane(application)
   }
 
