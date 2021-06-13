@@ -49,7 +49,7 @@
     "baobab-react": "1.0.1",
     "classnames": "2.2.3",
     "local-preferences": "2.1.2",
-    "lodash": "4.6.0",
+    "lodash": "4.17.21",
     "moment": "2.11.2",
     "normalize.css": "3.0.3",
     "react": "0.14.7",
