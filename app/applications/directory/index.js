@@ -4,13 +4,11 @@ import React, {Component} from "react"
 
 class Directory extends Component {
   defaultProps = {
-    entries: [],
-    contentTitle: "Directory"
+    entries: []
   };
 
   static propTypes = {
-    entries: React.PropTypes.array,
-    contentTitle: React.PropTypes.string
+    entries: React.PropTypes.array
   };
 
   openUser(user, event) {
@@ -20,7 +18,7 @@ class Directory extends Component {
 
   render() {
     return <section data-component="applications/directory">
-      <h1>{this.props.contentTitle}</h1>
+      <h1>Directory</h1>
 
       {this.renderEntries()}
     </section>
